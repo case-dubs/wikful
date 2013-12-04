@@ -17,7 +17,7 @@ module Wikful
     # config.time_zone = 'Central Time (US & Canada)'
 
     #Provide a secure connection over SSL
-    config.force_ssl = true
+    config.force_ssl = false
 
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
