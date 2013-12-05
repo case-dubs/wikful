@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.1'
 
@@ -56,4 +58,5 @@ group :production do
   gem 'rails_12factor'
 end
 
-ruby '2.0.0p247'
+# Declare the ruby version to use: http://bundler.io/v1.3/gemfile.html
+ruby '2.0.0'
